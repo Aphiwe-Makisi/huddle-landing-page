@@ -22,6 +22,11 @@ header {
 }
 
 button {
+    border: none;
+    outline: none;
+}
+
+#try-for-free-btn {
     background-color: transparent;
     outline: none;
     border: 2px solid hsl(321, 100%, 78%);
@@ -30,6 +35,10 @@ button {
     cursor: pointer;
     box-shadow: 1px 1px 5px hsl(321, 100%, 78%);
     margin-left: 150px;
+}
+
+button:hover {
+    transition: 0.5s linear;
 }
 
 button a {
@@ -51,6 +60,10 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 250px;
+}
+
+#get-started-btn:hover {
+    background-color: hsla(322, 100%, 66%, .8);
 }
 
 #get-started-btn a {
